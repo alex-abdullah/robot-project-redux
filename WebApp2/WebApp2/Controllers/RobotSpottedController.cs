@@ -25,14 +25,11 @@ public class RobotSpottedController : ControllerBase // Map request to a respons
     [HttpPost(Name = "RobotSpotted")]
     public async Task<string> Post(string location)
     {
-
         _logger.Log(LogLevel.Information, new EventId(), null, "Location name sent: " + location, null);
         Location[] final = await _service.GetNearestWaterLocation(location);
         _logger.Log(LogLevel.Information, new EventId(), null, "Water location returned: " + final[0].display_name, null);
 
         return final[0].display_name;
-
-
         
     }
 }

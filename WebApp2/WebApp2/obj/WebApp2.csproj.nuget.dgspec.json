@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/alexabdullah/Projects/robot_project/WebApp2/WebApp2/WebApp2.csproj": {}
+    "/Users/alexabdullah/Projects/robot-project-redux/WebApp2/WebApp2/WebApp2.csproj": {}
   },
   "projects": {
-    "/Users/alexabdullah/Projects/robot_project/WebApp2/WebApp2/WebApp2.csproj": {
+    "/Users/alexabdullah/Projects/robot-project-redux/WebApp2/WebApp2/WebApp2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/alexabdullah/Projects/robot_project/WebApp2/WebApp2/WebApp2.csproj",
+        "projectUniqueName": "/Users/alexabdullah/Projects/robot-project-redux/WebApp2/WebApp2/WebApp2.csproj",
         "projectName": "WebApp2",
-        "projectPath": "/Users/alexabdullah/Projects/robot_project/WebApp2/WebApp2/WebApp2.csproj",
+        "projectPath": "/Users/alexabdullah/Projects/robot-project-redux/WebApp2/WebApp2/WebApp2.csproj",
         "packagesPath": "/Users/alexabdullah/.nuget/packages/",
-        "outputPath": "/Users/alexabdullah/Projects/robot_project/WebApp2/WebApp2/obj/",
+        "outputPath": "/Users/alexabdullah/Projects/robot-project-redux/WebApp2/WebApp2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/alexabdullah/.nuget/NuGet/NuGet.Config"

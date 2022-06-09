@@ -23,15 +23,11 @@ namespace WebApp2.Controller.Services
         }
 
         public async Task<Location[]> GetNearestWaterLocation(string location)
-        {
-            //_httpClient.DefaultRequestHeaders.Add("User-Agent", "C# App");            
+        {                      
             var x = await _httpClient.GetAsync($"https://nominatim.openstreetmap.org/search?format=json&q=water+near+{location}");
-            var JsonObjectString = await x.Content.ReadAsStringAsync();
-            string filePath = Path.Combine(Directory.GetCurrentDirectory(), "location.json");
-            File.WriteAllText(filePath, JsonObjectString);
-            string newJsonObject = File.ReadAllText(filePath);
+            var JsonObjectString = await x.Content.ReadAsStringAsync();    
 
-            return JsonSerializer.Deserialize<Location[]>(newJsonObject);             
+            return JsonSerializer.Deserialize<Location[]>(JsonObjectString);             
                         
         }
     }
