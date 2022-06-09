@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{EBBFDB85-0E7D-4292-B32A-2396DDEBFB77}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebApp2/Location.cs">
+    <Files>
+      <File FileName="WebApp2/Program.cs" Line="15" Column="50" />
+      <File FileName="WebApp2/Location.cs" Line="13" Column="39" />
+      <File FileName="WebApp2/Controllers/RobotSpottedController.cs" Line="22" Column="57" />
+      <File FileName="WebApp2/Controllers/Services/LocationService.cs" Line="26" Column="13" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WebApp2" expanded="True">
+            <Node name="WebApp2" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="Services" expanded="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="Location.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.WebApp2 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
