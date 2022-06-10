@@ -24,8 +24,8 @@ namespace WebApp2.Controller.Services
 
         public async Task<Location[]> GetNearestWaterLocation(string location)
         {                      
-            var x = await _httpClient.GetAsync($"https://nominatim.openstreetmap.org/search?format=json&q=water+near+{location}");
-            var JsonObjectString = await x.Content.ReadAsStringAsync();    
+            HttpResponseMessage waterLocation = await _httpClient.GetAsync($"https://nominatim.openstreetmap.org/search?format=json&q=water+near+{location}");
+            string JsonObjectString = await waterLocation.Content.ReadAsStringAsync();    
 
             return JsonSerializer.Deserialize<Location[]>(JsonObjectString);             
                         

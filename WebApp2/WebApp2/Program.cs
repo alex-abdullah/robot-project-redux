@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc;
 using WebApp2.Controller.Services;
 using WebApp2.Controllers;
 
@@ -11,6 +12,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddDbContext<WebApp2.LocationContext>(options => options.UseInMemoryDatabase("LocalDB"));
 builder.Services.AddSingleton<HttpClient>();
 builder.Services.AddSingleton<LocationService>();
 

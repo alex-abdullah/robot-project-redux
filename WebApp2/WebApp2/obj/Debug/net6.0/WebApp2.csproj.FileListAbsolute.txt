@@ -110,3 +110,7 @@
 /Users/alexabdullah/Projects/robot-project-redux/WebApp2/WebApp2/obj/Debug/net6.0/WebApp2.pdb
 /Users/alexabdullah/Projects/robot-project-redux/WebApp2/WebApp2/obj/Debug/net6.0/WebApp2.genruntimeconfig.cache
 /Users/alexabdullah/Projects/robot-project-redux/WebApp2/WebApp2/obj/Debug/net6.0/ref/WebApp2.dll
+/Users/alexabdullah/Projects/robot-project-redux/WebApp2/WebApp2/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/alexabdullah/Projects/robot-project-redux/WebApp2/WebApp2/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/alexabdullah/Projects/robot-project-redux/WebApp2/WebApp2/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll
+/Users/alexabdullah/Projects/robot-project-redux/WebApp2/WebApp2/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
